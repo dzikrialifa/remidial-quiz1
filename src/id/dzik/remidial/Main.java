@@ -58,5 +58,6 @@ public class Main {
         t.setKapal(kp);
         t.setPesawat(ps);
         t.info();
+        
     }
 }
