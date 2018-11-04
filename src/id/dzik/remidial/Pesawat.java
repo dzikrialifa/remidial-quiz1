@@ -46,7 +46,7 @@ public class Pesawat {
       public String info(){
           String info = "";
           info += "Memilih Armada "+getNama()+"\n";
-          info += "Kuota Kapal\t\t: "+getOrang()+"\n";
+          info += "Kuota Pesawat\t\t: "+getOrang()+"\n";
           info += "Harga Tiket\t\t: "+getHarga()+"/orang\n";
           return info;
       }
