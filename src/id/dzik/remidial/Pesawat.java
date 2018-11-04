@@ -11,7 +11,6 @@ public class Pesawat {
 
     public Pesawat() {
     }
-
     public String getNama() {
         return nama;
     }
