@@ -14,7 +14,6 @@ public class Transport {
     public void setKapal(Kapal kapal) {
         this.kapal = kapal;
     }
-
     public void setPesawat(Pesawat pesawat) {
         this.pesawat = pesawat;
     }
