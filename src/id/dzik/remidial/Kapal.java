@@ -41,20 +41,11 @@ public class Kapal {
     public void setOrang(int orang) {
         this.orang = orang;
     }
-    public void setHargaOrg(){
-        if (this.nama.equalsIgnoreCase("Dewasa")) {
-            this.harga = 1000000;
-        }else if (this.nama.equalsIgnoreCase("Anak")) {
-            this.harga = 750000;
-        }else{
-            System.out.println("Menu not found");
-        }
-    }
       public String info(){
           String info = "";
-          info += "Memilih Kapal\t: "+getNama()+"\n";
+          info += "Memilih Armada "+getNama()+"\n";
           info += "Kuota Kapal\t\t: "+getOrang()+"\n";
-          info += "Harga Tiket\t\t: "+getHarga()+"\n";
+          info += "Harga Tiket\t\t: "+getHarga()+"/orang\n";
           return info;
       }
     
