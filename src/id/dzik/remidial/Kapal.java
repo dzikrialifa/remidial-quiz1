@@ -17,11 +17,9 @@ public class Kapal {
     public void setNama(String nama) {
         this.nama = nama;
     }
-
     public int getHarga() {
         return harga;
     }
-
     public void setHarga(int harga) {
         this.harga = harga;
     }
