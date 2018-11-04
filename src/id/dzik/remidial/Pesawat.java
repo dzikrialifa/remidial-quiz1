@@ -50,6 +50,4 @@ public class Pesawat {
           info += "Harga Tiket\t\t: "+getHarga()+"/orang\n";
           return info;
       }
-    
-    
 }

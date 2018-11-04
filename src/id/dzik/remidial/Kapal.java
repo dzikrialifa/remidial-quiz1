@@ -48,7 +48,4 @@ public class Kapal {
           info += "Harga Tiket\t\t: "+getHarga()+"/orang\n";
           return info;
       }
-    
-    
-    
 }
